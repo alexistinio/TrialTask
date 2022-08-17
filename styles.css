@@ -1,0 +1,146 @@
+html{
+
+    scroll-behavior: smooth;
+}
+body{
+    max-width:100%;
+    
+}
+.title-div[data-scroll="in"]{
+    animation: fadeIn 2s;
+    
+}
+
+a{
+    width:100%;
+}
+
+.container-fluid{
+    color:white;
+
+}
+.btn{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+ #codePic{
+    background-image: url('logo.png');
+    background-size: 120% 100%;
+    border:2px solid gray;
+    margin:0;
+    padding:0;
+ }
+
+#firstSection{
+    border:none;
+    background-color: rgb(26, 26, 100);
+    min-height: 100vh;
+    width:100%;
+    
+
+}
+#secondSection{
+     color:black;
+    border:none;
+    min-height:158vh;
+    background-color:whitesmoke;
+    width:100%;
+    
+  
+}
+#thirdSection{
+    min-height:100vh;
+    background-color:rgb(41, 123, 155);
+    display:block;
+    width:100%;
+}
+.card{
+    
+    padding:3px;
+    margin-top:5vh;
+    
+}
+.fadeAllCourses{
+    animation: fadeIn 1s;
+}
+.fadeDiv[data-scroll="in"]{
+    animation: fadeIn 2s;
+}
+
+#webDev[data-scroll="in"]{
+    animation: fadeIn 1s;
+}
+#name[data-scroll="in"]{
+    animation: fadeIn 2s;
+}
+#udemy[data-scroll="in"]{
+    animation: fadeIn 2s;
+}
+#codePic[data-scroll="in"]{
+    animation: fadeIn 2s;
+}
+.showMore [data-scroll="in"]{
+    
+    animation: fadeIn 1s;
+}
+
+.card img{
+    border-top-left-radius:10px; border-top-right-radius:10px
+}
+#imgHeader{
+    width: 100%;
+    height:100%;
+    opacity:0.9;
+   
+}
+#imagePhoto{
+    
+    height:25vh;
+    
+}
+
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:100%;}
+    
+}
+
+
+@media only screen and (max-width: 575px) {
+    #imagePhoto{
+    
+        height:35vh;
+        
+    }
+}
+@media only screen and (max-width: 415px) {
+    #imagePhoto{
+    
+        height:23vh;
+        
+    }
+    #firstSection{
+        min-height: 85vh;
+    }
+    #viewCourse{
+        margin-top:8px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    #imagePhoto{
+    
+        height:22vh;
+        
+    }
+}
+
+@media only screen and (max-width: 280px) {
+    #imagePhoto{
+    
+        height:20vh;
+        
+    }
+}
+
+
+
