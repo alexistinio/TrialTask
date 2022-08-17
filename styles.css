@@ -41,7 +41,7 @@ a{
 #secondSection{
      color:black;
     border:none;
-    height: 100%;
+    min-height: 100vh;
     background-color:whitesmoke;
     width:100%;
     
