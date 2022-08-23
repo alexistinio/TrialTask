@@ -33,13 +33,13 @@ a{
 #firstSection{
     border:none;
     background-color: rgb(26, 26, 100);
-    min-height: 100vh;
+    min-height: 80vh;
     width:100%;
     
 
 }
 #secondSection{
-     color:black;
+    color:black;
     border:none;
     min-height: 100vh;
     background-color:whitesmoke;
@@ -48,7 +48,7 @@ a{
   
 }
 #thirdSection{
-    min-height:100vh;
+    min-height:80vh;
     background-color:rgb(41, 123, 155);
     display:block;
     width:100%;
