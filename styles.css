@@ -31,9 +31,8 @@ a{
  }
 
 #firstSection{
-    border:none;
     background-color: rgb(26, 26, 100);
-    min-height: 75vh;
+  
     width:100%;
     
 
@@ -41,14 +40,12 @@ a{
 #secondSection{
     color:black;
     border:none;
-    min-height: 100vh;
     background-color:whitesmoke;
     width:100%;
     
   
 }
 #thirdSection{
-    min-height:75vh;
     background-color:rgb(41, 123, 155);
     display:block;
     width:100%;
