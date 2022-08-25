@@ -118,52 +118,22 @@ a{
     
 }
 
+#imagePhoto{
+    height:200px
+}
 
-@media only screen and (max-width: 575px) {
+@media only screen and (max-width:415px){
     #imagePhoto{
-    
-        height:35vh;
-        
+        margin-left:-350px
     }
 }
-@media only screen and (max-width: 415px) {
+@media only screen and (max-width:280px){
     #imagePhoto{
-    
-        height:23vh;
-        
-    }
-    #realimage{
-    
-        height:190px;
-        width:180px
-        
-    }
-    #firstSection{
-        min-height: 85vh;
-    }
-    #viewCourse{
-        margin-top:8px;
-    }
-}
-    
-
-@media only screen and (max-width: 400px) {
-    #imagePhoto{
-    
-        height:22vh;
-        
+        height:140px
+      
     }
 }
 
-
-@media only screen and (max-width: 280px) {
-    #realimage{
-    
-        height:140px;
-        width:130px
-        
-    }
-}
 
 
 
