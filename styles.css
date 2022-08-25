@@ -132,6 +132,13 @@ a{
         height:23vh;
         
     }
+    #realimage{
+    
+        height:190px;
+        width:180px
+        
+    }
+}
     #firstSection{
         min-height: 85vh;
     }
@@ -139,6 +146,7 @@ a{
         margin-top:8px;
     }
 }
+
 @media only screen and (max-width: 400px) {
     #imagePhoto{
     
@@ -147,13 +155,17 @@ a{
     }
 }
 
+
 @media only screen and (max-width: 280px) {
-    #imagePhoto{
+    #realimage{
     
-        height:20vh;
+        height:140px;
+        width:130px
         
     }
 }
+
+
 
 
 
