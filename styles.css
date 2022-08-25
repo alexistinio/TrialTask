@@ -11,6 +11,10 @@ body{
     
 }
 
+.full-width{
+    width: 100%;
+}
+
 a{
     width:100%;
 }
@@ -115,7 +119,7 @@ a{
 }
 
 #imagePhoto{
-    height:200px
+    height:180px
 }
 
 @media only screen and (max-width:415px){
