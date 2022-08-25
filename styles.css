@@ -129,8 +129,11 @@ a{
 }
 @media only screen and (max-width:280px){
     #imagePhoto{
-        height:140px
+        height:120px
       
+    }
+    #udemy{
+        height:44px
     }
 }
 
