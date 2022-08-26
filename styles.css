@@ -121,10 +121,21 @@ a{
 #imagePhoto{
     height:180px
 }
-
+@media only screen and (max-width:576px){
+   
+    #udemy{
+        height:64px
+    }
+}
 @media only screen and (max-width:415px){
     #imagePhoto{
         margin-left:-350px
+    }
+}
+@media only screen and (max-width:320px){
+   
+    #udemy{
+        height:50px
     }
 }
 @media only screen and (max-width:280px){
